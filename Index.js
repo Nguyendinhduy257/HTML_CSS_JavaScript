@@ -5,7 +5,7 @@ const port=3000; //Cổng chạy cục bộ
 // Middleware để phân tích cú pháp JSON
 app.use(express.json());
 app.get('/',(req,res)=>{
-    res.send('Hello World!');
+    res.send('Hello World! tên tôi là Đình Duy');
 });
 
 // Khởi động server
